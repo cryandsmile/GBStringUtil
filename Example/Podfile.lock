@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GBStringUtil (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GBStringUtil (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GBStringUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GBStringUtil: ccb862c5a89c741ee76f4a142c236d450dc54d7a
+
+PODFILE CHECKSUM: f52f207e369cac865fa872268e3947d41e415b08
+
+COCOAPODS: 1.10.1

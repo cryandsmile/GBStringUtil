@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GBStringUtil_Example' do
+  pod 'GBStringUtil', :path => '../'
+
+  target 'GBStringUtil_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
